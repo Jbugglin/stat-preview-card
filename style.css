@@ -1,0 +1,122 @@
+:root {
+    --main-bg: hsl(233, 47%, 7%);
+    --card-bg: hsl(244, 38%, 16%);
+    --accent: hsl(277, 64%, 61%);
+    --main-heading-stats: hsl(0, 0%, 100%);
+    --main-para: hsla(0, 0%, 100%, 0.75);
+    --stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Non-viewport dependant styles */
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: var(--main-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main {
+    background-color: var(--main-bg);
+}
+
+span {
+    color: var(--accent);
+}
+
+h1 {
+    color: var(--main-heading-stats);
+}
+
+p {
+    color: var(--main-para);
+    line-height: 1.5;
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat {
+    color: var(--main-heading-stats);
+}
+
+.stat-heading {
+    color: var(--stat-headings);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat {
+    font-weight: 700;
+}
+
+/* Mobile view */
+main {
+    width: 90%;
+    height: fit-content;
+    border: 1px solid gold;
+    border-radius: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+h1 {
+    margin: 2rem auto 1rem;
+    text-align: center;
+    width: 85%;
+}
+
+p {
+    text-align: center;
+    margin: 0.75rem auto;
+    width: 85%;
+    font-size: 1.25rem;
+}
+
+.stat-container {
+    margin: 1rem auto 2rem;
+}
+
+.stat {
+    font-size: 1.75rem;
+}
+
+.stat-heading {
+    font-size: 0.9rem;
+}
+
+/* Desktop view */
+
+
+
+
+
+
+footer { 
+    font-size: 11px; text-align: center; 
+    position: absolute;
+    bottom: 0;
+    color: var(--stat-headings);
+}
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
