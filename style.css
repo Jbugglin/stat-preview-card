@@ -68,7 +68,6 @@ p {
 main {
     width: 90%;
     height: fit-content;
-    border: 1px solid gold;
     border-radius: 1rem;
 }
 
@@ -105,6 +104,46 @@ p {
 }
 
 /* Desktop view */
+
+@media screen and (min-width: 1440px) {
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 0.75rem;
+        border: 1px solid yellow;
+    }
+
+    img {
+        width: 50%;
+        border-radius: 0rem 0.75rem 0.75rem 0rem;
+    }
+
+    .non-image-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: left;
+        width: 70%;
+    }
+
+    p {
+        width: 65%;
+        text-align: left;
+    }
+
+    .stat-section {
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        margin: 1rem auto;
+    }
+}
 
 
 
