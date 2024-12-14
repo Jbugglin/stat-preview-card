@@ -79,7 +79,7 @@ p {
 
 /* Mobile view */
 main {
-    width: 80%;
+    width: 70%;
     max-width: 375px;
     height: fit-content;
     border-radius: 0.75rem;
@@ -100,14 +100,14 @@ h1 {
     margin: 1.125rem auto;
     text-align: center;
     width: 85%;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 p {
     text-align: center;
     margin: 0rem auto;
     width: 85%;
-    font-size: 0.8rem;
+    font-size: 0.69rem;
 }
 
 .stat-section {
@@ -125,7 +125,7 @@ p {
 }
 
 .stat-heading {
-    font-size: 0.75rem;
+    font-size: 0.69rem;
     letter-spacing: 1.25px;
 }
 
