@@ -35,13 +35,6 @@ span {
     color: var(--accent);
 }
 
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: hsla(277, 96%, 29%, 0.425);
-    z-index: 2;
-}
-
 h1 {
     color: var(--main-heading-stats);
     font-family: "Inter", serif;
@@ -88,19 +81,23 @@ p {
 main {
     width: 80%;
     max-width: 375px;
-    height: min-content;
+    height: fit-content;
     border-radius: 0.75rem;
 }
 
 img {
     width: 100%;
-    height: auto;
+    height: 33.33%;
     border-radius: 0.75rem 0.75rem 0rem 0rem;
     display: block;
 }
 
+.info-section {
+    height: 33.33%;
+}
+
 h1 {
-    margin: 0rem auto 0rem;
+    margin: 1.125rem auto;
     text-align: center;
     width: 85%;
     font-size: 1.6rem;
@@ -108,22 +105,23 @@ h1 {
 
 p {
     text-align: center;
-    margin: 0rem auto 0rem;
+    margin: 0rem auto;
     width: 85%;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 
 .stat-section {
-    padding: 0rem auto 0rem;
-    margin-bottom: 1.5rem;
+    height: 33.33%;
+    margin: 1.25rem auto 2rem;
 }
 
 .stat-container {
-    margin: 0rem auto 0rem;
+    margin: 0.75rem auto;
 }
 
 .stat {
     font-size: 1.5rem;
+    margin: 0.5rem;
 }
 
 .stat-heading {
