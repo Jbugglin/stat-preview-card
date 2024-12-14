@@ -92,16 +92,16 @@ main {
     border-radius: 0.75rem;
 }
 
+.images {
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+}
+
 img {
     width: 100%;
     height: 100%;
     border-radius: 0.75rem 0.75rem 0rem 0rem;
     display: block;
     mix-blend-mode: overlay;
-}
-
-.info-section {
-    height: 33.33%;
 }
 
 h1 {
@@ -119,7 +119,6 @@ p {
 }
 
 .stat-section {
-    height: 33.33%;
     margin: 1.25rem auto 2rem;
 }
 
@@ -152,6 +151,7 @@ p {
     .images {
         width: 50%;
         height: auto;
+        border-radius: 0rem 0.75rem 0.75rem 0rem;
     }
 
     img {
@@ -166,26 +166,47 @@ p {
         width: 50%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-content: center;
+        border: 1px solid red;
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: left;
         width: 70%;
+        margin: 0;
+        padding: 0;
     }
 
     p {
         width: 65%;
         text-align: left;
+        font-size: 0.9rem;
+        line-height: 2;
+        margin: 0;
+        padding: 0;
     }
 
     .stat-section {
         display: flex;
         flex-direction: row;
         width: 75%;
-        margin: 1rem auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .stat-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .stat {
+        margin: 0;
+        padding: 0;
+    }
+
+    .stat-heading {
+        margin: 0;
+        padding: 0;
     }
 }
 
