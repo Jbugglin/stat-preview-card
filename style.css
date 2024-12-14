@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    letter-spacing: 1px;
 }
 
 /* Non-viewport dependant styles */
@@ -43,11 +44,19 @@ span {
 
 h1 {
     color: var(--main-heading-stats);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 p {
     color: var(--main-para);
-    line-height: 1.5;
+    line-height: 1.625;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .stat-container {
@@ -64,10 +73,14 @@ p {
 .stat-heading {
     color: var(--stat-headings);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .stat {
+    font-family: "Inter", serif;
     font-weight: 700;
 }
 
@@ -87,28 +100,36 @@ img {
 }
 
 h1 {
-    margin: 2rem auto 1rem;
+    margin: 1rem auto 0.5rem;
     text-align: center;
     width: 85%;
+    font-size: 1.6rem;
 }
 
 p {
     text-align: center;
-    margin: 0.75rem auto;
+    margin: 0.5rem auto 0.5rem;
     width: 85%;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
+}
+
+.stat-section {
+    padding: 0.5rem auto 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .stat-container {
-    margin: 1rem auto 2rem;
+    margin: 1rem auto 1.25rem;
 }
 
 .stat {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    margin: 0.325rem;
 }
 
 .stat-heading {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    letter-spacing: 1.25px;
 }
 
 /* Desktop view */
