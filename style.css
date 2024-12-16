@@ -5,7 +5,7 @@
     --main-heading-stats: hsl(0, 0%, 100%);
     --main-para: hsla(0, 0%, 100%, 0.75);
     --stat-headings: hsla(0, 0%, 100%, 0.6);
-    --overlay-amethyst: rgba(182, 103, 232, 0.501);
+    --overlay-amethyst: rgba(183, 103, 232, 0.57);
 }
 
 *, *::before, *::after {
@@ -30,6 +30,7 @@ body {
 
 main {
     background-color: var(--card-bg);
+    border-radius: 0.625rem;
 }
 
 .images {
@@ -87,9 +88,8 @@ p {
 /* Mobile view */
 main {
     width: 70%;
-    max-width: 375px;
+    max-width: 265px;
     height: fit-content;
-    border-radius: 0.75rem;
 }
 
 .images {
@@ -99,7 +99,7 @@ main {
 img {
     width: 100%;
     height: 100%;
-    border-radius: 0.75rem 0.75rem 0rem 0rem;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
     display: block;
     mix-blend-mode: overlay;
 }
@@ -144,15 +144,15 @@ p {
         display: flex;
         flex-direction: row-reverse;
         border-radius: 0.75rem;
-        width: 75%;
-        max-width: 900px;
-        height: 400px;
+        width: 90%;
+        max-width: 1200px;
+        height: 500px;
     }   
     
     .images {
         width: 50%;
         height: auto;
-        border-radius: 0rem 0.75rem 0.75rem 0rem;
+        border-radius: 0rem 0.625rem 0.625rem 0rem;
     }
 
     img {
@@ -167,24 +167,24 @@ p {
         width: 50%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        padding: 0rem;
+        justify-content: space-evenly;
+        padding: 2rem;
     }
 
     h1 {
-        font-size: 1.75rem;
+        font-size: 2.5rem;
         text-align: left;
-        width: 70%;
-        margin: 3.5rem 0rem 0rem 3.5rem;
+        width: 90%;
+        margin: 3rem 0rem 1rem 3rem;
         padding: 0;
     }
 
     p {
-        width: 70%;
+        width: 75%;
         text-align: left;
-        font-size: 0.625rem;
+        font-size: 0.9rem;
         line-height: 2;
-        margin: 2rem 0rem 0rem 3.5rem;
+        margin: 1.75rem 0rem 0rem 3rem;
     }
 
     .stat-section {
@@ -192,12 +192,11 @@ p {
         flex-direction: row;
         justify-content: space-between;
         width: 65%;
-        margin: 0rem 0rem 3.5rem 3.5rem;
-        padding: 0;
+        margin: 0rem 0rem 0rem 3rem;
     }
 
     .stat-container {
-        margin: 0;
+        margin: 3rem 0rem 1rem;
         padding: 0;
         display: flex;
         flex-direction: column;
@@ -208,13 +207,14 @@ p {
     .stat {
         margin: 0;
         padding: 0;
-        font-size: 1.325rem;
+        font-size: 1.5rem;
     }
 
     .stat-heading {
         margin: 0.5rem;
         padding: 0;
-        font-size: 0.625rem;
+        font-size: 0.75rem;
+        letter-spacing: 1px;
     }
 }
 
