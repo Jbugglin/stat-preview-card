@@ -5,7 +5,7 @@
     --main-heading-stats: hsl(0, 0%, 100%);
     --main-para: hsla(0, 0%, 100%, 0.75);
     --stat-headings: hsla(0, 0%, 100%, 0.6);
-    --overlay-amethyst: rgba(170, 80, 226, 0.521);
+    --overlay-amethyst: rgba(178, 66, 212, 0.471);
 }
 
 *, *::before, *::after {
@@ -30,7 +30,7 @@ body {
 
 main {
     background-color: var(--card-bg);
-    border-radius: 0.625rem;
+    border-radius: 0.5rem;
 }
 
 .images {
@@ -93,13 +93,13 @@ main {
 }
 
 .images {
-    border-radius: 0.75rem 0.75rem 0rem 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 img {
     width: 100%;
     height: 100%;
-    border-radius: 0.625rem 0.625rem 0rem 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
     display: block;
     mix-blend-mode: overlay;
 }
@@ -143,16 +143,16 @@ p {
     main {
         display: flex;
         flex-direction: row-reverse;
-        border-radius: 0.75rem;
+        border-radius: 0.5rem;
         width: 90%;
-        max-width: 1150px;
-        height: 430px;
+        max-width: 1200px;
+        height: 450px;
     }   
     
     .images {
         width: 50%;
         height: auto;
-        border-radius: 0rem 0.625rem 0.625rem 0rem;
+        border-radius: 0rem 0.5rem 0.5rem 0rem;
     }
 
     img {
